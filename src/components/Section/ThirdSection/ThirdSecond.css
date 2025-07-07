@@ -1,0 +1,54 @@
+.section3 {
+    width: 1264px;
+    min-height: 710px;
+    margin-top: 90px;
+}
+
+.phoneFon1 {
+    width: 1264px;
+    height: 710px;
+    top: 2499px;
+    left: 88px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.phoneFon2_1 {
+    margin-left: 88px;
+}
+
+.phoneFon2_2 {
+    margin-top: 16px;
+    margin-left: 56px;
+}
+
+.watsUp {
+    margin-left: 16px;
+}
+
+.phoneFonText1 {
+    margin-top: 17px;
+    left: 0.13px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.phoneFonText2 {
+    margin-top: -31px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #615E5C;
+}
+
+.phoneFonText3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #AEABA8;
+}

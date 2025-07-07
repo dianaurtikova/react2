@@ -1,0 +1,61 @@
+.section4 {
+    width: 100%;
+    min-height: 810px;
+}
+
+.slayder {
+    position: relative;
+    margin-top: -446px;
+    margin-left: 85px;
+}
+
+.slayder1 {
+    width: 592px;
+    height: 216px;
+}
+
+.slayder1_2 {
+    margin-left: 24px;
+}
+
+.slayderText1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.slayderText2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-top: -36px;
+}
+
+.slayderText3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.slayder2 {
+    margin-top: 35px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.tvFon {
+    width: 100%
+}

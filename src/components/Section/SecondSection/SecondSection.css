@@ -1,0 +1,143 @@
+.card-container1 {
+    display: flex;
+    width: 1264px;
+    min-height: 606px;
+    top: 865px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    /* flex-flow: row wrap; */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    position: relative;
+    margin-bottom: 30px;
+    /* flex: 0 0 23%;
+    box-sizing: border-box; */
+}
+
+.card1 {
+    max-width: 304px;
+    height: 587px;
+    object-fit: contain;
+}
+
+.card h3 {
+    width: 125px;
+    height: 30px;
+    font-family: Roboto;
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardText {
+    position: absolute;
+    bottom: 20px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.textSection2 {
+    width: 682px;
+    height: 110px;
+    top: -3.06px;
+    left: 88px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    color: #1B365D;
+    display: block;
+    margin-left: 88px;
+}
+
+.section2 {
+    min-height: 1700px;
+}
+
+.fon2 {
+    margin-left: 88px;
+    position: absolute;
+}
+
+.blueFon2 {
+    position: relative;
+}
+
+.blueFon {
+    width: 100%;
+    margin-top: 361px;
+}
+
+.stolbcu {
+    display: flex;
+    width: 1180.8125px;
+    height: 159px;
+    margin-top: -222px;
+    margin-left: 173px;
+}
+
+.stolbec2 {
+    margin-left: 195px;
+}
+
+.stolbec1_1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.stolbec2_1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.stolbec1_2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+.stolbec2_2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+.stolbcu a {
+    display: inline-block;
+    color: #1B365D;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

@@ -1,0 +1,52 @@
+.section5 {
+    display: flex;
+    justify-content: space-between;
+    width: 1264px;
+    min-height: 540px;
+    top: 4055.06px;
+    margin-left: 88px;
+}
+
+.section5Text {
+    width: 421.328125px;
+    height: 332px;
+}
+
+.section5Text1_1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    color: #228B22;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.section5Text1_2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: #615E5C;
+}
+
+.section5But {
+    width: 127px;
+    height: 46px;
+    border-radius: 24px;
+    border-width: 1px;
+    background: #B2C2A9;
+    border: 1px solid #B2C2A9;
+}
+
+.section5Text2_1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #AEABA8;
+}
