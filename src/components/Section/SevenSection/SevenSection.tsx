@@ -11,9 +11,9 @@ import Form from '../../Form/Form'
 
 function SevenSection() {
     const [open, setOpen] = useState(false);
-        const clickOpen = () => {
-            setOpen(true);
-        }
+    const clickOpen = () => {
+        setOpen(true);
+    }
     return (
         <>
             <section className="section7">

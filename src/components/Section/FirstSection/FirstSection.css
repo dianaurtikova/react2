@@ -4,7 +4,6 @@
 
 .textSection1 {
     margin-left: 88px;
-    /* position:relative; */
     margin-top: -520px;
 }
 
@@ -27,7 +26,7 @@
     top: -3.13px;
     font-family: Roboto;
     font-weight: 700px;
-    font-size: 56px;
+    font-size: clamp(10px, 4vw, 56px);
     line-height: 61.6px;
     letter-spacing: 0%;
     position: relative;
@@ -130,4 +129,10 @@
     letter-spacing: 0%;
     margin-left: 17px;
     color: #1B365D;
+}
+
+@media(max-width:1300px){
+    .text1Fon1 {
+    margin-top: 100px;
+  }
 }

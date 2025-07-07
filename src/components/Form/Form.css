@@ -59,6 +59,7 @@
     transition: .2s;
     transform: scale(0);
 }
-.backdrop.activ{
+
+.backdrop.activ {
     transform: scale(1);
 }

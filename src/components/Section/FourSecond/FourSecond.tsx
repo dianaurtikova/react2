@@ -1,9 +1,9 @@
 import '../../Section/FourSecond/FourSecind.css'
 import Sec4Fon from '../../../assets/img/Sec4Fon.svg'
-function FourSecond(){
+function FourSecond() {
     return (
         <section className="section4">
-            <img src={Sec4Fon} className="tvFon"/>
+            <img src={Sec4Fon} className="tvFon" />
             <div className="slayder">
                 <div className="slayder1">
                     <p className="slayderText1"><b>Не просто учитесь — применяйте знания</b></p>

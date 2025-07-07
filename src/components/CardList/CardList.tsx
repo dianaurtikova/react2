@@ -47,11 +47,11 @@ function CardList({ limit }: CardsProps) {
         return <p>Error:{error}</p>
     }
     if (cards.length === 0 && !loading) {
-    return <p>No cards available</p>;
-}
-if (cards.length === 0) {
-    return <p>Нет данных для отображения.</p>;
-  }
+        return <p>No cards available</p>;
+    }
+    if (cards.length === 0) {
+        return <p>Нет данных для отображения.</p>;
+    }
     return (
         <div className="card-container1">
             {cards.map((card, index) => (
