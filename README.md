@@ -1,54 +1,44 @@
 # React + TypeScript + Vite
+Макет проекта - https://www.figma.com/design/6rw5poqayob8FjgcjbcJX0/Portal?node-id=1-2&t=K94IeIoCTNYFlwFl-0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+Веб-приложение на React с TypeScript для сайта онлайн обучения ProStudy. Включает прелоадер, который отображается 3 секунды, а после плавно появляется контент сайта, модально окно для входа и регистрации, которое появляется при нажатии на кнопки "Записаться на курс" и "Записаться". Шапку с навигацией и страницы: главная, курсы и страница с ошибкой. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Стилизация проекта выполнена с помощью CSS-модулей для каждого компонента, адаптивная верстка выполнена с помощью @media-запросов. Маршрутизация происходит с помощью React Router (SPA-поведедние).
 
-## Expanding the ESLint configuration
+Страницы:
+-HomePage - главная станица
+-CardsPage - страница с карточками
+-NotFoundPage - страница с ошибкой
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Главная страница (HomePage) отображает первые 4 карточки (используется CardList с ограничением limit=4). Страница со списком карточек (CardsPage): по умолчанию отображает 10 карточек и может динамически менять количество отображаемых карточек.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Хуки:
+-useState - управление внутренним состоянием компонентов
+-useEffect - выполнение побочных эффектов в функциональных компонентах.
+-useForm - управление состоянием формы
+-useSearchParams - чтение строки запроса текущего URL и манипулирование ею внутри компонента.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Структура
+-/src/components – компоненты
+-/src/components/Section/ – секции страницы
+-/src/assets/image – изображения
+-/src/assets/styles – глобальные стили
+-/src/hooks – кастомные хуки
+-/src/pages – страницы
+-/src/types - типы данных
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Технологии:
+-Vite
+-React + TypeScript
+-React Router — маршрутизация
+-React Hook Form — валидация формы
+-Swiper — слайдер
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Установка и запуск проекта
+1. Клонирование репозитория - git clone https://github.com/dianaurtikova/react2.git
+2. Установка зависимостей - npm install
+3. Запуск - npm run dev
+4. Откройте в браузере: http://localhost:5173 (Vite)
+
