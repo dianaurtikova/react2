@@ -9,9 +9,7 @@ function CardsPage() {
     const limit = Number(searchParams.get('limit')) || CARDS_LIMIT;
     return (
         <>
-            <div className='cardName'>Программы
-                
-            </div>
+            <div className='cardName'>Программы</div>
             <CardList limit={limit} />
         </>
     );
