@@ -1,6 +1,11 @@
 .footerText {
-    /* margin-left: 332px; */
     margin-top: -10px;
+    text-decoration: none;
+}
+
+.logofooter {
+    color: #DADBDD;
+    font-size: 40px;
 }
 
 .footerspiski {

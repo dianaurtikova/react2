@@ -24,7 +24,6 @@ function App() {
                 <Route index element={<HomePage />} />
                 <Route path="/Products" element={<CardsPage />} />
                 <Route path="/features" element={<NotFoundPage />} />
-                <Route path="/support" element={<NotFoundPage />} />
               </Route>
             </Routes>
         }

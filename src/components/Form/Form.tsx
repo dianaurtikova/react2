@@ -20,14 +20,14 @@ function Form({ active, setActive }: propsForm) {
 
         <div className={active ? "backdrop activ" : "backdrop"} onClick={clickClose}>
             <form className="form_click" onClick={e => e.stopPropagation()}>
-                <h1 className="form_name">Registration form</h1>
+                <h1 className="form_name">Форма входа и регистрации</h1>
                 <div className="field-area">
-                    <input className="input-area" type="text" placeholder="Your name" required />
-                    <input className="input-area" type="email" placeholder="Email Address" required />
+                    <input className="input-area" type="text" placeholder="ФИО" required />
+                    <input className="input-area" type="email" placeholder="Электронная почта" required />
                 </div>
                 <div className="form_buttons">
-                    <button className="form_button">Ok</button>
-                    <button className="form_button" onClick={clickClose}>Сancel</button>
+                    <button className="form_button">Oкей</button>
+                    <button className="form_button" onClick={clickClose}>Закрыть</button>
                 </div>
             </form>
         </div>

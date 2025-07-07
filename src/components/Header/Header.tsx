@@ -19,7 +19,7 @@ function Header() {
                         <ul>
                             <li><Link to="/Products" className="butt">Курсы</Link></li>
                             <li><Link to="/features" className="butt">Возможности</Link></li>
-                            <li><Link to="/support" className="butt">Поддержка</Link></li>
+                            <li><Link to="/features" className="butt">Поддержка</Link></li>
                         </ul>
                     </nav>
                     <button className="but" onClick={clickOpen}>Записаться</button>
