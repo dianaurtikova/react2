@@ -1,17 +1,18 @@
 .section4 {
     width: 100%;
-    min-height: 810px;
 }
 
 .slayder {
-    position: relative;
-    margin-top: -446px;
-    margin-left: 85px;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -30%;
 }
-
+.tvFon{
+    width: 100%;
+}
 .slayder1 {
     width: 592px;
-    height: 216px;
+    height: auto;
 }
 
 .slayder1_2 {
@@ -21,7 +22,7 @@
 .slayderText1 {
     font-family: Roboto;
     font-weight: 700;
-    font-size: 50px;
+    font-size: clamp(22px, 3vw, 50px);
     line-height: 55px;
     letter-spacing: 0%;
     color: #FFFFFF;
@@ -30,17 +31,17 @@
 .slayderText2 {
     font-family: Roboto;
     font-weight: 400;
-    font-size: 17px;
+    font-size: clamp(14px, 2vw, 17px);
     line-height: 23px;
     letter-spacing: 0%;
     color: #FFFFFF;
-    margin-top: -36px;
+    margin-top: 8px;
 }
 
 .slayderText3 {
     font-family: Roboto;
     font-weight: 400;
-    font-size: 14px;
+    font-size: clamp(9px, 2vw, 14px);
     line-height: 20px;
     letter-spacing: 0%;
     color: #FFFFFF;
@@ -56,6 +57,23 @@
     color: #FFFFFF;
 }
 
-.tvFon {
-    width: 100%
+@media(max-width:1300px){
+    .slayder{
+        max-width: 50%;
+    }
+    .slayderText2{
+        display: none;
+    }
+    .slayderText1{
+       line-height: 30px;
+    }
+}
+@media(max-width:800px){
+    .slayder2{
+        display: none;
+    }
+    .slayderText1{
+       max-width: 50%;
+       line-height: 20px;
+    }
 }

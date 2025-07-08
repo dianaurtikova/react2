@@ -1,14 +1,13 @@
 .section5 {
     display: flex;
     justify-content: space-between;
-    width: 1264px;
-    min-height: 540px;
-    top: 4055.06px;
-    margin-left: 88px;
+    max-width: 100%;
+    margin-left: 7%;
+    margin-top: 6%;
 }
 
 .section5Text {
-    width: 421.328125px;
+    width: 421px;
     height: 332px;
 }
 
@@ -16,7 +15,7 @@
     font-family: Roboto;
     font-weight: 700;
     font-size: 50px;
-    line-height: 55px;
+    font-size: clamp(20px, 3vw, 55px);
     letter-spacing: 0%;
     color: #228B22;
     margin-top: 13px;
@@ -26,7 +25,7 @@
 .section5Text1_2 {
     font-family: Roboto;
     font-weight: 400;
-    font-size: 17px;
+    font-size: clamp(15px, 2vw, 26px);
     line-height: 23px;
     letter-spacing: 0%;
     color: #615E5C;
@@ -49,4 +48,18 @@
     letter-spacing: 0%;
     text-align: center;
     color: #AEABA8;
+}
+
+.section5picture2 {
+    width: 90%;
+}
+
+@media(max-width:700px) {
+    .section5 {
+        display: block;
+    }
+
+    .section5Text {
+        width: 100%;
+    }
 }

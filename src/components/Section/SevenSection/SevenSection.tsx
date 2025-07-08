@@ -119,7 +119,7 @@ function SevenSection() {
                             <div className="swiper-button-prev"></div>
                             <div className="swiper-button-next"></div>
                         </div>
-                        <button className="CPbut"><Link to="/Products" >Выберите курс</Link></button>
+                        {/* <button className="CPbut"><Link to="/Products" >Выберите курс</Link></button> */}
                     </div>
                 </div>
             </section >

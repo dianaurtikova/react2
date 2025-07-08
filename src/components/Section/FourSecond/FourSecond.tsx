@@ -6,7 +6,7 @@ function FourSecond() {
             <img src={Sec4Fon} className="tvFon" />
             <div className="slayder">
                 <div className="slayder1">
-                    <p className="slayderText1"><b>Не просто учитесь — применяйте знания</b></p>
+                    <p className="slayderText1"><b>Не просто учитесь — применяйте знания!</b></p>
                     <p className="slayderText2">С нашими интерактивными курсами уроки оживают благодаря увлекательным видео, анимациям и практическим заданиям.</p>
                 </div>
                 <div className="slayder2">
